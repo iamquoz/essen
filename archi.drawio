@@ -1,70 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T15:27:47.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" version="20.7.2" etag="IReT2AGCvzTChtZnQHUS" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-24T14:13:37.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="DCw2sSeC9bwqsDuOcH26" version="20.7.4" type="github">
   <diagram id="3hKTc_W_EMMtfc0N87kb" name="Page-1">
-    <mxGraphModel dx="1728" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-1" value="Таблицы базы данных" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ff99;shape=mxgraph.archimate.application;appType=artifact" vertex="1" parent="1">
-          <mxGeometry x="710" y="1070" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-2" value="База данных" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ff99;shape=mxgraph.archimate.application;appType=sysSw" vertex="1" parent="1">
-          <mxGeometry x="710" y="960" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-3" target="nksqvRa2mpdeuNbnUIZ4-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-3" target="nksqvRa2mpdeuNbnUIZ4-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-3" target="nksqvRa2mpdeuNbnUIZ4-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-3" target="nksqvRa2mpdeuNbnUIZ4-45">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-3" target="nksqvRa2mpdeuNbnUIZ4-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-3" value="Web-сервер" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ff99;shape=mxgraph.archimate.application;appType=node" vertex="1" parent="1">
-          <mxGeometry x="710" y="850" width="100" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-1" target="nksqvRa2mpdeuNbnUIZ4-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="1060" as="sourcePoint" />
-            <mxPoint x="890" y="1010" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-2" target="nksqvRa2mpdeuNbnUIZ4-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870.29" y="960" as="sourcePoint" />
-            <mxPoint x="870" y="925" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-7" value="Диспетчер" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.application;appType=role" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-7" value="Диспетчер" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.application;appType=role" parent="1" vertex="1">
           <mxGeometry x="710" y="280" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-8" target="nksqvRa2mpdeuNbnUIZ4-41">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-8" target="nksqvRa2mpdeuNbnUIZ4-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-8" target="nksqvRa2mpdeuNbnUIZ4-7">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-8" target="nksqvRa2mpdeuNbnUIZ4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-8" value="Реагирование на заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-8" value="Реагирование на заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="320" y="305" width="330" height="237.5" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-9" target="nksqvRa2mpdeuNbnUIZ4-14">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-9" target="nksqvRa2mpdeuNbnUIZ4-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-9" target="nksqvRa2mpdeuNbnUIZ4-7">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-9" target="nksqvRa2mpdeuNbnUIZ4-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-9" value="Комментарии" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-9" value="Комментарии" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=function;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="870" y="392.5" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-10" target="nksqvRa2mpdeuNbnUIZ4-12">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-10" target="nksqvRa2mpdeuNbnUIZ4-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-10" target="nksqvRa2mpdeuNbnUIZ4-13">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-10" target="nksqvRa2mpdeuNbnUIZ4-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="950" y="530" />
@@ -72,22 +36,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-10" value="Сервис управления комментариями" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=service" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-10" value="Сервис управления комментариями" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=service" parent="1" vertex="1">
           <mxGeometry x="885" y="563" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-12" target="nksqvRa2mpdeuNbnUIZ4-13">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-12" target="nksqvRa2mpdeuNbnUIZ4-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-12" value="Создать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-12" value="Создать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="880" y="440" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-13" value="Отправить комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-13" value="Отправить комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="1050" y="440" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-14" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Комментарий&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-14" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Комментарий&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="1290" y="430" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-18">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1340" y="718" />
@@ -95,12 +59,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-25" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nksqvRa2mpdeuNbnUIZ4-23">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-25" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nksqvRa2mpdeuNbnUIZ4-23" vertex="1" connectable="0">
           <mxGeometry x="0.1177" y="3" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-17">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1340" y="790" />
@@ -109,48 +73,48 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-26" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nksqvRa2mpdeuNbnUIZ4-24">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-26" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nksqvRa2mpdeuNbnUIZ4-24" vertex="1" connectable="0">
           <mxGeometry x="-0.1545" y="2" relative="1" as="geometry">
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-14">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-16" target="nksqvRa2mpdeuNbnUIZ4-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-16" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Комментарий&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-16" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Комментарий&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.businessObject;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="1290" y="562" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-17" target="nksqvRa2mpdeuNbnUIZ4-10">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-17" target="nksqvRa2mpdeuNbnUIZ4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-17" value="Создать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-17" value="Создать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" parent="1" vertex="1">
           <mxGeometry x="820" y="680" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-18" target="nksqvRa2mpdeuNbnUIZ4-10">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-18" target="nksqvRa2mpdeuNbnUIZ4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-18" value="Прочитать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-18" value="Прочитать комментарий" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" parent="1" vertex="1">
           <mxGeometry x="985" y="680" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-30" target="nksqvRa2mpdeuNbnUIZ4-31">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-30" target="nksqvRa2mpdeuNbnUIZ4-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-30" target="nksqvRa2mpdeuNbnUIZ4-33">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-30" target="nksqvRa2mpdeuNbnUIZ4-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-30" value="Получить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-30" value="Получить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="330" y="386.25" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-31" value="Отменить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-31" value="Отменить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="500" y="336.25" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-30">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-33">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-31">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-32" target="nksqvRa2mpdeuNbnUIZ4-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="430" />
@@ -158,19 +122,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-32" value="Сервис управления заявками" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=service" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-32" value="Сервис управления заявками" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=service" parent="1" vertex="1">
           <mxGeometry x="505" y="562" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-33" value="Создать наряд" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-33" value="Создать наряд" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.business;busType=process" parent="1" vertex="1">
           <mxGeometry x="500" y="437.5" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-41" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Заявка&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-41" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Заявка&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate.businessObject;overflow=fill;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="130" y="386.25" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-41">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-45">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="840" />
@@ -178,7 +142,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-46">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="840" />
@@ -186,28 +150,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-54" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nksqvRa2mpdeuNbnUIZ4-53">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-54" value="read" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nksqvRa2mpdeuNbnUIZ4-53" vertex="1" connectable="0">
           <mxGeometry x="-0.0645" y="2" relative="1" as="geometry">
             <mxPoint x="170" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-55" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nksqvRa2mpdeuNbnUIZ4-53">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-55" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nksqvRa2mpdeuNbnUIZ4-53" vertex="1" connectable="0">
           <mxGeometry x="0.6593" y="-2" relative="1" as="geometry">
             <mxPoint x="55" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-44">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-42" target="nksqvRa2mpdeuNbnUIZ4-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-58" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nksqvRa2mpdeuNbnUIZ4-57">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-58" value="write" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nksqvRa2mpdeuNbnUIZ4-57" vertex="1" connectable="0">
           <mxGeometry x="-0.3992" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-42" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Заявка&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.businessObject;overflow=fill" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-42" value="&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:20px;&quot;&gt;&lt;td align=&quot;center&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td valign=&quot;top&quot; style=&quot;padding:4px;&quot;&gt;Заявка&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.businessObject;overflow=fill" parent="1" vertex="1">
           <mxGeometry x="130" y="562" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-44" target="nksqvRa2mpdeuNbnUIZ4-32">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-44" target="nksqvRa2mpdeuNbnUIZ4-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="330" y="680" />
@@ -215,10 +179,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-44" value="Создать наряд" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-44" value="Создать наряд" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" parent="1" vertex="1">
           <mxGeometry x="280" y="710" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-45" target="nksqvRa2mpdeuNbnUIZ4-32">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-45" target="nksqvRa2mpdeuNbnUIZ4-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="450" y="680" />
@@ -226,13 +190,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-45" value="Получить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-45" value="Получить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" parent="1" vertex="1">
           <mxGeometry x="400" y="710" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="nksqvRa2mpdeuNbnUIZ4-46" target="nksqvRa2mpdeuNbnUIZ4-32">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="nksqvRa2mpdeuNbnUIZ4-46" target="nksqvRa2mpdeuNbnUIZ4-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nksqvRa2mpdeuNbnUIZ4-46" value="Отменить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" vertex="1" parent="1">
+        <mxCell id="nksqvRa2mpdeuNbnUIZ4-46" value="Отменить заявку" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate.application;appType=function" parent="1" vertex="1">
           <mxGeometry x="520" y="710" width="100" height="75" as="geometry" />
         </mxCell>
       </root>
