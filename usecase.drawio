@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T17:50:41.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="W6W2WciI83VEhCmFdF4O" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T20:15:31.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="i0panH8L8acBGqlDT2yX" version="21.1.9" type="github">
   <diagram id="vjuk1poThl9Il7xJmEbo" name="Page-1">
-    <mxGraphModel dx="1644" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="2273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,17 +360,6 @@
         </mxCell>
         <mxCell id="qtg-pSpe1ta4W5BYF0yq-51" value="Просмотреть &lt;br&gt;список выездных&lt;br&gt;сотрудников" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1580" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qtg-pSpe1ta4W5BYF0yq-84" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;dashed=1;" edge="1" parent="1" source="qtg-pSpe1ta4W5BYF0yq-52" target="qtg-pSpe1ta4W5BYF0yq-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qtg-pSpe1ta4W5BYF0yq-91" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="qtg-pSpe1ta4W5BYF0yq-84">
-          <mxGeometry x="-0.1943" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qtg-pSpe1ta4W5BYF0yq-52" value="Просмотреть &lt;br&gt;список &lt;br&gt;должностей" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qtg-pSpe1ta4W5BYF0yq-87" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="qtg-pSpe1ta4W5BYF0yq-53" target="qtg-pSpe1ta4W5BYF0yq-51">
           <mxGeometry relative="1" as="geometry" />
