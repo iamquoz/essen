@@ -1,0 +1,551 @@
+<mxfile host="app.diagrams.net" modified="2023-12-16T05:21:21.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="xJrpZRRUYiw_-z3cmAEt" version="22.1.11" type="github">
+  <diagram name="Страница 1" id="AgQiqrcBvpjqdOuLyIjS">
+    <mxGraphModel dx="2794" dy="1314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-1" value="Диаграмма состояний сущности &quot;Задача &lt;font color=&quot;#ff0000&quot;&gt;заявки&lt;/font&gt;&quot;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="374" y="10" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="399" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-7" value="К планированию" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="295" y="150" width="238" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-8" value="У задачи нет связанной конкретной задачи наряда в активном статусе*&lt;br&gt;&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;perimeterSpacing=1;" parent="dgGzlgY4AkJJ5bdUNwzD-7" vertex="1">
+          <mxGeometry y="30" width="238" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-8" target="dgGzlgY4AkJJ5bdUNwzD-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-11" value="Запланирована" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="355" width="224" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-12" value="Задача имеет связанную конкретную задачу наряда в активном статусе*.&amp;nbsp;&lt;br&gt;Работы по задаче еще не начаты.&lt;br&gt;&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-11" vertex="1">
+          <mxGeometry y="30" width="224" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-12" target="dgGzlgY4AkJJ5bdUNwzD-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="592" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-14" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="571" width="224" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-15" value="Задача имеет связанную конкретную задачу в статусе &quot;В работе&quot;.&amp;nbsp;&lt;br&gt;Поле &quot;Дата начала&quot; заполнено.&lt;br&gt;&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - дата&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-14" vertex="1">
+          <mxGeometry y="30" width="224" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-14" target="dgGzlgY4AkJJ5bdUNwzD-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-18" value="Отменена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="576" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-19" value="Актуальность задачи была снята диспетчером вручную.&lt;br&gt;&lt;br&gt;Актуальность - не актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - дата" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-18" vertex="1">
+          <mxGeometry y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-18" target="dgGzlgY4AkJJ5bdUNwzD-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="242" y="1000" />
+              <mxPoint x="429" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=8;fillColor=#e51400;strokeColor=#FF0000;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-8" target="dgGzlgY4AkJJ5bdUNwzD-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-22" value="Завершена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="785" width="224" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-23" value="Задача имеет связанную конкретную задачу в статусе &quot;Завершена&quot;. &lt;br&gt;Поле &quot;Дата выполнения/отмены&quot; заполнено, задача актуальна.&lt;br&gt;&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - дата&lt;br&gt;Дата выполнения/отмены - дата" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-22" vertex="1">
+          <mxGeometry y="30" width="224" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-22" target="dgGzlgY4AkJJ5bdUNwzD-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="592" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="592" y="1000" />
+              <mxPoint x="429" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="414" y="1050" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-27" value="* активные статусы нарядов:&lt;br style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;ol style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Черновик&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Новый&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Назначен&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Принят&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;В дороге&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;В работе&lt;/li&gt;&lt;/ol&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="150" width="160" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-29" value="Диаграмма состояний сущности &quot;Задача &lt;font color=&quot;#3333ff&quot;&gt;наряда&lt;/font&gt;&quot; (конкретная задача)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="10" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-30" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1205" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-32" value="Запланирована" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="150" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-33" value="Задача добавлена в наряд. Активностей по ее выполнению еще не совершалось.&lt;br&gt;&lt;br&gt;Конкретная задача = задача заявки:&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-32" vertex="1">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-32" target="dgGzlgY4AkJJ5bdUNwzD-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="350" />
+              <mxPoint x="1420" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-36" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="416" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-37" value="Сотрудник начал работу по задаче.&lt;br&gt;&lt;br&gt;Конкретная задача = задача заявки:&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - дата&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-36" vertex="1">
+          <mxGeometry y="30" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-36" target="dgGzlgY4AkJJ5bdUNwzD-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-39" value="Отменена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="454" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-40" value="Сотрудник отменил конкретную задачу в МП, не приступая к ее выполнению.&amp;nbsp;&lt;br&gt;&lt;br&gt;Конкретная задача:&lt;br&gt;Актуальность - не актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - дата&lt;br&gt;&lt;br&gt;Задача заявки:&lt;br&gt;Статус - К планированию&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-39" vertex="1">
+          <mxGeometry y="30" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-39" target="dgGzlgY4AkJJ5bdUNwzD-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="780" />
+              <mxPoint x="1220" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-33" target="dgGzlgY4AkJJ5bdUNwzD-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="420" as="targetPoint" />
+            <mxPoint x="1230" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="350" />
+              <mxPoint x="1020" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-43" value="Завершена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="606" width="250" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-44" value="Сотрудник завершил работу по задаче.&lt;br&gt;&lt;br&gt;Конкретная задача = задача заявки:&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - дата&lt;br&gt;Дата выполнения/отмены - дата" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-43" vertex="1">
+          <mxGeometry y="30" width="250" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-43" target="dgGzlgY4AkJJ5bdUNwzD-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1420" y="780" />
+              <mxPoint x="1220" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-46" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="1205" y="840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-47" value="Диаграмма состояний сущности &quot;Заявка&quot;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="389" y="1220" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-48" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="399" y="1260" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-48" target="dgGzlgY4AkJJ5bdUNwzD-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-50" value="Новая" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="304" y="1350" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-51" value="Сущность только появилась в системе: из внешней системы, ручным способом или через плановое обслуживание.&lt;br&gt;&lt;br&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Все задачи:&lt;br&gt;Статус - К планированию&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступные кнопки: &quot;Сохранить&quot;, &quot;Сохранить и закрыть&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-50" vertex="1">
+          <mxGeometry y="30" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-51" target="dgGzlgY4AkJJ5bdUNwzD-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="1680" as="targetPoint" />
+            <mxPoint x="438.0588235294117" y="1670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-55" target="dgGzlgY4AkJJ5bdUNwzD-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.5" y="1950" as="targetPoint" />
+            <mxPoint x="411.50000000000045" y="1870" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="414" y="1880" />
+              <mxPoint x="571" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-54" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="307.5" y="1680" width="213" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-55" value="Был создан первый наряд по заявке, либо одна из задач заявки была отменена.&amp;nbsp;&lt;br&gt;&lt;br&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступные кнопки: &quot;Сохранить&quot;, &quot;Сохранить и закрыть&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-54" vertex="1">
+          <mxGeometry y="30" width="213" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-56" value="Завершена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="445.75" y="1933" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-57" value="Все задачи были выполнены выездными сотрудниками, либо часть задач была выполнена, а часть - отменена диспетчером вручную.&lt;br&gt;&lt;br&gt;Дата выполнения/отмены - дата выполнения/отмены последней задачи&lt;br&gt;&lt;br&gt;Все задачи:&lt;br&gt;Статус - Завершена / Отменена&lt;br&gt;Актуальность - актуальна / не актуальна&lt;br&gt;Дата начала - дата / прочерк&lt;br&gt;Дата выполнения/отмены - дата&lt;br&gt;&lt;br&gt;Доступные кнопки: &quot;Закрыть&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-56" vertex="1">
+          <mxGeometry y="30" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-57" target="dgGzlgY4AkJJ5bdUNwzD-63" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="2360" as="targetPoint" />
+            <mxPoint x="660" y="2290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-59" value="Отменена" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="132.25" y="1933" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-60" value="Все задачи заявки были отменены.&amp;nbsp;&lt;br&gt;&lt;br&gt;Дата выполнения/отмены - дата снятия актуальности с последней задачи&lt;br&gt;&lt;br&gt;Все задачи:&lt;br&gt;Статус - Отменена&lt;br&gt;Актуальность - не актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - дата&lt;br&gt;&lt;br&gt;Доступных кнопок нет." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-59" vertex="1">
+          <mxGeometry y="30" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-60" target="dgGzlgY4AkJJ5bdUNwzD-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.75" y="2240" as="targetPoint" />
+            <mxPoint x="251.27857142857147" y="2139" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="252" y="2450" />
+              <mxPoint x="414" y="2450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-55" target="dgGzlgY4AkJJ5bdUNwzD-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41.5" y="1950" as="targetPoint" />
+            <mxPoint x="411.50000000000045" y="1870" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="414" y="1880" />
+              <mxPoint x="252" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-63" value="Закрыта" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="475.75" y="2260" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-64" value="Диспетчер вручную утвердил выполнение заявки, закрыв ее. Предполагается, что перед закрытием диспетчер может &quot;пройти&quot; чек-лист по закрытию.&lt;br&gt;&lt;br&gt;Доступных кнопок нет" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="dgGzlgY4AkJJ5bdUNwzD-63" vertex="1">
+          <mxGeometry y="30" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-65" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-63" target="dgGzlgY4AkJJ5bdUNwzD-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="2480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="571" y="2450" />
+              <mxPoint x="414" y="2450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-66" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="399" y="2496" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-67" value="Редактирование сущности на разных этапах:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Добавление задач доступно только в статусах заявки &quot;Новая&quot;, &quot;В работе&quot;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Редактирование полей &quot;Клиент&quot;, &quot;Контактное лицо&quot;, &quot;Вид работ/услуг&quot;, &quot;Описание&quot;, &quot;Объект обслуживания&quot; и&amp;nbsp; его &quot;Уровень сервиса&quot; доступно только при создании заявки.&lt;/li&gt;&lt;/ol&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;spacingLeft=3;spacingRight=0;spacing=10;spacingTop=5;spacingBottom=-15;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1350" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-69" value="Диаграмма состояний сущности &quot;Наряд&quot; &lt;font color=&quot;#ff0000&quot;&gt;(со стороны диспетчерской)&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="389" y="2720" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-70" value="" style="ellipse;html=1;shape=endState;" parent="1" vertex="1">
+          <mxGeometry x="414" y="4740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-71" value="" style="ellipse;html=1;shape=startState;" parent="1" vertex="1">
+          <mxGeometry x="414" y="2780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-71" target="dgGzlgY4AkJJ5bdUNwzD-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-73" value="Черновик" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="2840" width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-74" value="Автоматический планировщик расписания (АПР) создал черновик сущности.&amp;nbsp;&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br&gt;Статус - Запланирована&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала&amp;nbsp; - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Утвердить&quot;, &quot;Расформировать&quot;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-73" vertex="1">
+          <mxGeometry y="30" width="220" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-75" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=-0.003;exitY=0.093;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-74" target="dgGzlgY4AkJJ5bdUNwzD-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="536" y="3200" as="targetPoint" />
+            <mxPoint x="646" y="3270.0000000000005" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="429" y="2893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-76" value="Новый" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="284" y="2943" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-77" value="Сущность была утверждена из черновика АПР-а&amp;nbsp; или создана диспетчером вручную через автоматический подбор исполнителя.&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Статус - Запланирована&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Актуальность - актуальна&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата начала&amp;nbsp; - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата выполнения/отмены - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Доступные кнопки - &quot;Назначить&quot;, &lt;font style=&quot;font-weight: bold;&quot; color=&quot;#ff0000&quot;&gt;&quot;Отменить&quot;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-76" vertex="1">
+          <mxGeometry y="30" width="290" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-77" target="dgGzlgY4AkJJ5bdUNwzD-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="3270" as="targetPoint" />
+            <mxPoint x="429" y="3290" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-79" value="Назначен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="309" y="3273" width="240" height="287" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-80" value="Диспетчер назначил наряд на выездного сотрудника. Наряд отправляется выездному сотруднику в МП.&amp;nbsp;&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Статус - Запланирована&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Актуальность - актуальна&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата начала&amp;nbsp; - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Отменить&quot;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-79" vertex="1">
+          <mxGeometry y="30" width="240" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-79" target="dgGzlgY4AkJJ5bdUNwzD-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="3740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="429" y="3600" />
+              <mxPoint x="190" y="3600" />
+              <mxPoint x="190" y="3634" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-82" value="Отменен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="74" y="3634" width="230" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-83" value="Диспетчер вручную отменил наряд. Активность отправляется в МП (если предыдущий статус наряда &quot;Назначен&quot; или &quot;Принят&quot;).&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - дата&lt;br&gt;&lt;br&gt;Задачи наряда:&lt;br&gt;Статус - Отменена&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - дата&lt;br&gt;&lt;br&gt;Заявка находится в статусе &quot;В работе&quot;&lt;br&gt;&lt;br&gt;Задачи заявки:&lt;br&gt;Статус - К планированию&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - прочерк&lt;br&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступных кнопок нет" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-82" vertex="1">
+          <mxGeometry y="30" width="230" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-84" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="4740" as="targetPoint" />
+            <mxPoint x="188.71" y="4160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="189" y="4700" />
+              <mxPoint x="429" y="4700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-85" value="Принят" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="546" y="3638" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-86" value="Выездной сотрудник принял наряд. Активность отправилась в web-диспетчерскую.&amp;nbsp;&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Статус - Запланирована&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Актуальность - актуальна&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата начала&amp;nbsp; - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата выполнения/отмены - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Доступные кнопки - &quot;Отменить&quot;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-85" vertex="1">
+          <mxGeometry y="30" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-87" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-86" target="dgGzlgY4AkJJ5bdUNwzD-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="3810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-88" value="В дороге" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="395" y="3995" width="210" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-89" value="Выездной сотрудник в МП начал задачу по перемещению до объекта обслуживания.&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - прочерк&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br&gt;Статус - Запланирована&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Актуальность - актуальна&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата начала&amp;nbsp; - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата выполнения/отмены - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Доступных кнопок нет" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-88" vertex="1">
+          <mxGeometry y="30" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-90" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=-0.004;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.002;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-89" target="dgGzlgY4AkJJ5bdUNwzD-92" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-91" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="705" y="3985" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-92" value="Выездной сотрудник в МП начал первую функциональную задачу.&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - дата&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Первая задача наряда и заявки:&lt;br&gt;Статус - В работе&lt;br&gt;Актуальность - актуальна&lt;br&gt;Начало работ - дата&lt;br&gt;Окончание работ - прочерк&lt;br&gt;&lt;br&gt;Остальные задачи наряда и связанные с ними в заявке:&lt;br&gt;Актуальность - актуальна&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата начала&amp;nbsp; - прочерк&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Дата выполнения/отмены - прочерк&lt;br&gt;&lt;br&gt;Доступных кнопок нет" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-91" vertex="1">
+          <mxGeometry y="30" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-92" target="dgGzlgY4AkJJ5bdUNwzD-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245" y="3710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-94" value="Завершен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="565" y="4380" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-95" value="Сотрудник выполнил или отменил все функциональные задачи наряда.&lt;br&gt;&lt;br&gt;Фактические границы работ:&lt;br&gt;Начало работ - дата&lt;br&gt;Окончание работ - дата&lt;br&gt;&lt;br&gt;Все задачи наряда и связанные с ними в заявке:&lt;br&gt;Статус - Завершена / К планированию&lt;br&gt;Актуальность - актуальна&lt;br&gt;Дата начала - дата / прочерк&lt;br&gt;Дата выполнения/отмены - дата&lt;br&gt;&lt;br&gt;Доступных кнопок нет" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-94" vertex="1">
+          <mxGeometry y="30" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-96" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429" y="4740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="4700" />
+              <mxPoint x="429" y="4700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-98" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-71" target="dgGzlgY4AkJJ5bdUNwzD-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="2979.9999999999995" as="targetPoint" />
+            <mxPoint x="443" y="2789.9999999999995" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="429" y="2890" />
+              <mxPoint x="429" y="2890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-99" value="Актуальность можно снимать у задачи заявки только, когда она находится в статусе &quot;К планированию&quot;" style="shape=note;size=20;whiteSpace=wrap;html=1;spacingLeft=6;spacingRight=6;spacingTop=8;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="380" width="190" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-77" target="dgGzlgY4AkJJ5bdUNwzD-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="3740" as="targetPoint" />
+            <mxPoint x="439" y="3650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="3098" />
+              <mxPoint x="190" y="3634" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-101" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-80" target="dgGzlgY4AkJJ5bdUNwzD-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="3750" as="targetPoint" />
+            <mxPoint x="439" y="3650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="429" y="3600" />
+              <mxPoint x="660" y="3600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-102" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-86" target="dgGzlgY4AkJJ5bdUNwzD-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="3965" as="targetPoint" />
+            <mxPoint x="570" y="3965" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="660" y="3950" />
+              <mxPoint x="500" y="3950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-103" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-86" target="dgGzlgY4AkJJ5bdUNwzD-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="4180" as="targetPoint" />
+            <mxPoint x="670" y="4095" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="660" y="3950" />
+              <mxPoint x="815" y="3950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-104" value="Диаграмма состояний сущности &quot;Наряд&quot; &lt;font color=&quot;#0000ff&quot;&gt;(со стороны МП)&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="2720" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-106" value="" style="ellipse;html=1;shape=startState;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="2780" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-107" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-106" target="dgGzlgY4AkJJ5bdUNwzD-108" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-108" value="Назначен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="2870" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-109" value="Наряд был назначен выездному сотруднику диспетчером. Наряд только что отобразился в МП инженера.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Принять&quot;, &quot;Отменить&quot;." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-108" vertex="1">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-110" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-108" target="dgGzlgY4AkJJ5bdUNwzD-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-111" value="Принят" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="3090" width="195" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-112" value="Сотрудник в МП принял наряд. Стала доступна к работе первая обязательная задача на перемещение до объекта обслуживания.&lt;br&gt;&lt;br&gt;Доступные кнопки для активной задачи - &quot;Начать&quot; и &quot;Отменить&quot;&lt;br&gt;&lt;br&gt;Доступные кнопки для наряда - &quot;Выставить риск&quot;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-111" vertex="1">
+          <mxGeometry y="30" width="195" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-113" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-112" target="dgGzlgY4AkJJ5bdUNwzD-118" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1487.5" y="3427" as="targetPoint" />
+            <mxPoint x="1472.5384615384614" y="3370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-114" value="Отменен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="3090" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-115" value="Наряд был отменен выездным сотрудником (предыдущее состояние наряда - &quot;Назначен&quot;) или диспетчером (предыдущее состояние наряда - &quot;Назначен&quot; или &quot;Принят&quot;).&lt;br&gt;&lt;br&gt;Доступных кнопок нет." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=7;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-114" vertex="1">
+          <mxGeometry y="30" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-116" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="3750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="3710" />
+              <mxPoint x="1290" y="3710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-117" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-109" target="dgGzlgY4AkJJ5bdUNwzD-114" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1498" y="3100" as="targetPoint" />
+            <mxPoint x="1300" y="3030" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-118" value="В дороге" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1235" y="3361" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-119" value="Инженер начал выполнять обязательную задачу на перемещение до объекта обслуживания.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Выполнить&quot; и &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&quot;Выставить риск&quot;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=9;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-118" vertex="1">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-120" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-118" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="3436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-121" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="3361" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-122" value="Инженер начал выполнять первую функциональную задачу наряда.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Выполнить&quot; и &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&quot;Выставить риск&quot;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=9;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-121" vertex="1">
+          <mxGeometry y="30" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-123" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-112" target="dgGzlgY4AkJJ5bdUNwzD-121" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="3390" as="targetPoint" />
+            <mxPoint x="1472.5" y="3370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-124" value="Завершен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="1382.5" y="3554" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-125" value="Сотрудник выполнил/отменил все задачи наряда, отправил отчет о проделанной работе.&lt;br&gt;&lt;br&gt;Доступных кнопок нет." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-124" vertex="1">
+          <mxGeometry y="30" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-126" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="3750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1473" y="3710" />
+              <mxPoint x="1290" y="3710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-127" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-122" target="dgGzlgY4AkJJ5bdUNwzD-124" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="3475" as="targetPoint" />
+            <mxPoint x="1445" y="3475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dgGzlgY4AkJJ5bdUNwzD-128" value="" style="ellipse;html=1;shape=endState;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="3750" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
