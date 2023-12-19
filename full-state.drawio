@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:36:18.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="5w_A8iDra0l5MYJwkjBI" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:37:49.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="hXoRYJa_l8_1bwm3Yxkf" version="22.1.11" type="github">
   <diagram name="Страница 1" id="AgQiqrcBvpjqdOuLyIjS">
-    <mxGraphModel dx="1956" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="2417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="583" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
           <mxGeometry x="414" y="1050" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-27" value="* активные статусы нарядов:&lt;br style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;ol style=&quot;border-color: var(--border-color); font-weight: 700;&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Черновик&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Новый&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Назначен&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Принят&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;В дороге&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;В работе&lt;/li&gt;&lt;/ol&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="150" width="160" height="165" as="geometry" />
+          <mxGeometry x="-230" y="140" width="160" height="165" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-29" value="Диаграмма состояний сущности &quot;Задача &lt;font color=&quot;#3333ff&quot;&gt;наряда&lt;/font&gt;&quot; (конкретная задача)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="1180" y="10" width="80" height="26" as="geometry" />
@@ -266,7 +266,7 @@
           <mxGeometry x="399" y="2496" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-67" value="Редактирование сущности на разных этапах:&lt;br&gt;&lt;ol&gt;&lt;li&gt;Добавление задач доступно только в статусах заявки &quot;Новая&quot;, &quot;В работе&quot;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Редактирование полей &quot;Клиент&quot;, &quot;Контактное лицо&quot;, &quot;Вид работ/услуг&quot;, &quot;Описание&quot;, &quot;Объект обслуживания&quot; и&amp;nbsp; его &quot;Уровень сервиса&quot; доступно только при создании заявки.&lt;/li&gt;&lt;/ol&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;spacingLeft=3;spacingRight=0;spacing=10;spacingTop=5;spacingBottom=-15;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="1350" width="240" height="220" as="geometry" />
+          <mxGeometry x="990" y="1430" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-69" value="Диаграмма состояний сущности &quot;Наряд&quot; &lt;font color=&quot;#ff0000&quot;&gt;(со стороны диспетчерской)&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="389" y="2720" width="80" height="26" as="geometry" />
@@ -401,7 +401,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-99" value="Актуальность можно снимать у задачи заявки только, когда она находится в статусе &quot;К планированию&quot;" style="shape=note;size=20;whiteSpace=wrap;html=1;spacingLeft=6;spacingRight=6;spacingTop=8;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="380" width="190" height="95" as="geometry" />
+          <mxGeometry x="-250" y="370" width="190" height="95" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-100" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-77" target="dgGzlgY4AkJJ5bdUNwzD-82" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -444,106 +444,106 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-104" value="Диаграмма состояний сущности &quot;Наряд&quot; &lt;font color=&quot;#0000ff&quot;&gt;(со стороны МП)&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="2720" width="80" height="26" as="geometry" />
+          <mxGeometry x="1655" y="2746" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-106" value="" style="ellipse;html=1;shape=startState;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="2780" width="30" height="30" as="geometry" />
+          <mxGeometry x="1680" y="2806" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-107" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-106" target="dgGzlgY4AkJJ5bdUNwzD-108" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="2870" as="targetPoint" />
+            <mxPoint x="1695" y="2896" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-108" value="Назначен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="2870" width="200" height="150" as="geometry" />
+          <mxGeometry x="1595" y="2896" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-109" value="Наряд был назначен выездному сотруднику диспетчером. Наряд только что отобразился в МП инженера.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Принять&quot;, &quot;Отменить&quot;." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-108" vertex="1">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-110" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-108" target="dgGzlgY4AkJJ5bdUNwzD-111" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="3090" as="targetPoint" />
+            <mxPoint x="1695" y="3116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-111" value="Принят" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1375" y="3090" width="195" height="210" as="geometry" />
+          <mxGeometry x="1780" y="3116" width="195" height="210" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-112" value="Сотрудник в МП принял наряд. Стала доступна к работе первая обязательная задача на перемещение до объекта обслуживания.&lt;br&gt;&lt;br&gt;Доступные кнопки для активной задачи - &quot;Начать&quot; и &quot;Отменить&quot;&lt;br&gt;&lt;br&gt;Доступные кнопки для наряда - &quot;Выставить риск&quot;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-111" vertex="1">
           <mxGeometry y="30" width="195" height="180" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-113" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-112" target="dgGzlgY4AkJJ5bdUNwzD-118" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1487.5" y="3427" as="targetPoint" />
-            <mxPoint x="1472.5384615384614" y="3370" as="sourcePoint" />
+            <mxPoint x="1892.5" y="3453" as="targetPoint" />
+            <mxPoint x="1877.5384615384614" y="3396" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-114" value="Отменен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1035" y="3090" width="170" height="190" as="geometry" />
+          <mxGeometry x="1440" y="3116" width="170" height="190" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-115" value="Наряд был отменен выездным сотрудником (предыдущее состояние наряда - &quot;Назначен&quot;) или диспетчером (предыдущее состояние наряда - &quot;Назначен&quot; или &quot;Принят&quot;).&lt;br&gt;&lt;br&gt;Доступных кнопок нет." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=7;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-114" vertex="1">
           <mxGeometry y="30" width="170" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-116" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-114" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="3750" as="targetPoint" />
+            <mxPoint x="1695" y="3776" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1120" y="3710" />
-              <mxPoint x="1290" y="3710" />
+              <mxPoint x="1525" y="3736" />
+              <mxPoint x="1695" y="3736" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-117" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-109" target="dgGzlgY4AkJJ5bdUNwzD-114" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1498" y="3100" as="targetPoint" />
-            <mxPoint x="1300" y="3030" as="sourcePoint" />
+            <mxPoint x="1903" y="3126" as="targetPoint" />
+            <mxPoint x="1705" y="3056" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-118" value="В дороге" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1235" y="3361" width="200" height="150" as="geometry" />
+          <mxGeometry x="1640" y="3387" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-119" value="Инженер начал выполнять обязательную задачу на перемещение до объекта обслуживания.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Выполнить&quot; и &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&quot;Выставить риск&quot;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=9;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-118" vertex="1">
           <mxGeometry y="30" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-120" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-118" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1510" y="3436" as="targetPoint" />
+            <mxPoint x="1915" y="3462" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-121" value="В работе" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="3361" width="200" height="140" as="geometry" />
+          <mxGeometry x="1915" y="3387" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-122" value="Инженер начал выполнять первую функциональную задачу наряда.&lt;br&gt;&lt;br&gt;Доступные кнопки - &quot;Выполнить&quot; и &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&quot;Выставить риск&quot;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=9;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-121" vertex="1">
           <mxGeometry y="30" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-123" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-112" target="dgGzlgY4AkJJ5bdUNwzD-121" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="3390" as="targetPoint" />
-            <mxPoint x="1472.5" y="3370" as="sourcePoint" />
+            <mxPoint x="1775" y="3416" as="targetPoint" />
+            <mxPoint x="1877.5" y="3396" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-124" value="Завершен" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="1382.5" y="3554" width="180" height="130" as="geometry" />
+          <mxGeometry x="1787.5" y="3580" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-125" value="Сотрудник выполнил/отменил все задачи наряда, отправил отчет о проделанной работе.&lt;br&gt;&lt;br&gt;Доступных кнопок нет." style="text;html=1;align=left;verticalAlign=middle;spacingLeft=6;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;" parent="dgGzlgY4AkJJ5bdUNwzD-124" vertex="1">
           <mxGeometry y="30" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-126" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-124" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="3750" as="targetPoint" />
+            <mxPoint x="1695" y="3776" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1473" y="3710" />
-              <mxPoint x="1290" y="3710" />
+              <mxPoint x="1878" y="3736" />
+              <mxPoint x="1695" y="3736" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-127" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dgGzlgY4AkJJ5bdUNwzD-122" target="dgGzlgY4AkJJ5bdUNwzD-124" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1520" y="3475" as="targetPoint" />
-            <mxPoint x="1445" y="3475" as="sourcePoint" />
+            <mxPoint x="1925" y="3501" as="targetPoint" />
+            <mxPoint x="1850" y="3501" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dgGzlgY4AkJJ5bdUNwzD-128" value="" style="ellipse;html=1;shape=endState;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="3750" width="30" height="30" as="geometry" />
+          <mxGeometry x="1680" y="3776" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
